@@ -12,7 +12,7 @@ const port = process.env.PORT || 5000;
 app.use(express.json())
 app.use(cors(
   {
-    origin: ['http://localhost:5173','https://sapphire-hotel-bd5d7.web.app/','https://sapphire-hotel-bd5d7.firebaseapp.com/'],
+    origin: ['http://localhost:5173','https://sapphire-hotel-bd5d7.web.app','https://sapphire-hotel-bd5d7.firebaseapp.com'],
     credentials: true,
   }
 ))
